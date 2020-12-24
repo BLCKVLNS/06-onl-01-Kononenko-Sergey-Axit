@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(/fonts/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+.container {
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+
+.awesome-title {
+  margin-top: 100px;
+  margin-bottom: 67px;
+}
+.awesome-title__heading {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #212121;
+}
+.awesome-title__line {
+  width: 64px;
+  height: 2px;
+  background-color: #d98943;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.awesome-title__text {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
+.awesome-cards {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.awesome-cards__item {
+  max-width: 350px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  margin: 15px;
+}
+.awesome-cards__item-img {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #d98943;
+  border-radius: 50%;
+}
+.awesome-cards__item-img__pic {
+  display: block;
+  margin: auto;
+  margin-top: 17.5px;
+}
+.awesome-cards__item-heading {
+  font-family: 'OpenSans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.awesome-cards__item-description {
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 19px;
+}
