@@ -7,17 +7,27 @@
   src: url(../fonts/OpenSans-Regular.ttf);
 }
 
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
+.awesome {
+  padding-top: 100px;
 }
 
-.awesome-title {
-  margin-top: 100px;
-  margin-bottom: 67px;
+.awesome__container {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 0 15px;
 }
-.awesome-title__heading {
+.awesome__header {
+  margin-bottom: 67px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about__title {
+  margin-bottom: 25px;
+}
+
+.title {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: normal;
@@ -27,17 +37,14 @@
   text-transform: uppercase;
   color: #212121;
 }
-.awesome-title__line {
+
+.about__line {
   width: 64px;
   height: 2px;
   background-color: #d98943;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
   margin-bottom: 30px;
 }
-.awesome-title__text {
+.about__text {
   font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
@@ -45,44 +52,50 @@
   font-size: 14px;
   line-height: 19px;
   color: #86878b;
+  margin-bottom: 67px;
 }
-.awesome-cards {
-  text-align: center;
+.awesome__cards {
   display: flex;
+  align-items: flex-start;
   flex-direction: row;
   justify-content: center;
 }
-.awesome-cards__item {
+.awesome__cards-item {
   max-width: 350px;
-  margin: 15px;
+  margin: 0px 15px;
+  padding-bottom: 109px;
 }
-.awesome-cards__item-img {
-  display: block;
-  margin: auto;
-  margin-bottom: 30px;
+
+.item-description__icon {
   width: 70px;
   height: 70px;
   border: 1px solid #d98943;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  margin-bottom: 30px;
 }
-.awesome-cards__item-img__pic {
-  display: block;
-  margin: auto;
+.item-description__icon-logo {
   margin-top: 17.5px;
+  margin: auto;
 }
-.awesome-cards__item-heading {
+.item-description__title {
   font-family: 'OpenSans';
   font-size: 20px;
   font-style: normal;
   color: #000000;
   font-weight: bold;
   margin-bottom: 16px;
+  text-align: center;
 }
-.awesome-cards__item-description {
+.item-description__text {
   font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
   color: #000000;
   font-size: 14px;
   line-height: 19px;
+  text-align: center;
 }
