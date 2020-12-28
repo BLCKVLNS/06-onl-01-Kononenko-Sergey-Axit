@@ -1,19 +1,10 @@
-@font-face {
-  font-family: 'Raleway';
-  src: url(../fonts/Raleway-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family: 'OpenSans';
-  src: url(../fonts/OpenSans-Regular.ttf);
-}
-
 .awesome {
   padding-top: 100px;
 }
 
 .awesome__container {
   max-width: 1170px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 0 15px;
 }
 .awesome__header {
@@ -63,7 +54,7 @@
 .awesome__cards-item {
   max-width: 350px;
   margin: 0px 15px;
-  padding-bottom: 109px;
+  padding-bottom: 89px;
 }
 
 .item-description__icon {

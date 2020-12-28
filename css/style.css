@@ -1,4 +1,13 @@
 @import url('section-awesome.css');
+@import url('price.css');
+@font-face {
+  font-family: 'Raleway';
+  src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
 * {
   margin: 0px;
   padding: 0px;
