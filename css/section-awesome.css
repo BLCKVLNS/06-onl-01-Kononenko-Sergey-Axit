@@ -1,5 +1,6 @@
 .awesome {
   padding-top: 100px;
+  padding-bottom: 89px;
 }
 
 .awesome__container {
@@ -54,7 +55,6 @@
 .awesome__cards-item {
   max-width: 350px;
   margin: 0px 15px;
-  padding-bottom: 89px;
 }
 
 .item-description__icon {

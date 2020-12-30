@@ -1,0 +1,83 @@
+.price {
+  background-color: #e5e5e5;
+  padding: 80px 0;
+}
+.price__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.price__header {
+  margin-top: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__line_color_red {
+  width: 64px;
+  height: 2px;
+  background-color: #e72424;
+  margin-bottom: 30px;
+}
+
+.price__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price__cards-item {
+  margin: 0px 30px;
+  width: 33.3%;
+}
+.item-list {
+  max-width: 340px;
+}
+
+.item-list__block {
+  text-align: center;
+  background-color: #ffffff;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #86878b;
+  margin: 2px;
+}
+.block__tarif-name {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+}
+.block__tarif-cost {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+}
+.block__tarif-duration {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #333333;
+}
+.item-list__block_background-color_orange {
+  background-color: #d98943;
+  font-weight: 800;
+}
