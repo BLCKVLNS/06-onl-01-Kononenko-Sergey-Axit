@@ -1,13 +1,7 @@
 .awesome {
   padding-top: 100px;
-  padding-bottom: 89px;
 }
 
-.awesome__container {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 .awesome__header {
   margin-bottom: 67px;
   display: flex;
@@ -49,12 +43,13 @@
 .awesome__cards {
   display: flex;
   align-items: flex-start;
-  flex-direction: row;
   justify-content: center;
+  flex-flow: row wrap;
 }
 .awesome__cards-item {
   max-width: 350px;
   margin: 0px 15px;
+  padding-bottom: 89px;
 }
 
 .item-description__icon {
