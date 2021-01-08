@@ -1,6 +1,7 @@
 @import url('awesome.css');
 @import url('price.css');
 @import url('customers.css');
+@import url('axure.css');
 @font-face {
   font-family: 'Raleway';
   src: url(../fonts/Raleway-VariableFont_wght.ttf);
@@ -14,6 +15,9 @@
   padding: 0px;
   list-style-type: none;
   box-sizing: border-box;
+}
+a {
+  text-decoration: none;
 }
 
 .container {
