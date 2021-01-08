@@ -1,5 +1,6 @@
-@import url('section-awesome.css');
+@import url('awesome.css');
 @import url('price.css');
+@import url('customers.css');
 @font-face {
   font-family: 'Raleway';
   src: url(../fonts/Raleway-VariableFont_wght.ttf);
@@ -12,10 +13,44 @@
   margin: 0px;
   padding: 0px;
   list-style-type: none;
+  box-sizing: border-box;
 }
 
 .container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #212121;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title::after {
+  content: '';
+  display: block;
+
+  height: 2px;
+  width: 64px;
+  margin: 34px auto;
+  background-color: #d98943;
+}
+
+.subtitle {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #86878b;
+  text-align: center;
 }
