@@ -73,3 +73,9 @@
   max-width: 135px;
   margin: 0 auto;
 }
+
+.axure__button:hover {
+  color: #212121;
+  border: 1px solid #d98943;
+  background-color: #ffffff;
+}
