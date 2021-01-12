@@ -15,10 +15,8 @@
   margin: 10px 15px;
 }
 .fab {
-  /* font-family: 'Font Awesome 5 Free'; */
-  font-size: 18px;
+  font-size: 23px;
   color: #86878b;
-  /* font-weight: 900; */
 }
 .fa-facebook-f:hover {
   transform: scale(1.5, 1.5);
@@ -51,9 +49,8 @@
   transition: all 0.2s ease;
 }
 .fas {
-  font-size: 12px;
+  font-size: 23px;
   color: #86878b;
-  font-weight: 900;
 }
 .fa-rss:hover {
   transform: scale(1.5, 1.5);
@@ -61,8 +58,6 @@
   transition: all 0.2s ease;
 }
 
-.footer__text {
-}
 .footer__text-copywright {
   font-family: 'OpenSans';
   font-style: normal;
