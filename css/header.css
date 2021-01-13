@@ -1,0 +1,53 @@
+.header {
+  padding: 20px 0;
+  background-color: #000000;
+
+  /* position: fixed;
+  width: 100%;
+  margin-bottom: 140px; */
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+}
+.header__logo_color_white {
+  color: #ffffff;
+}
+.header__logo_color_orange {
+  color: #d98943;
+}
+
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.menu-list__item {
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+
+  margin: 0 24px;
+}
+.menu-list__item-link {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.menu-list__item-link:hover {
+  color: #e72424;
+}
