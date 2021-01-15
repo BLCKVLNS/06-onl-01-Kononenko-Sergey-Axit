@@ -24,8 +24,8 @@
 
 #white-title {
   color: #ffffff;
-  position: relative;
-  z-index: 1;
+  /* position: relative;
+  z-index: 1; */
 }
 
 #white-title::after {
@@ -49,16 +49,16 @@
 
   color: rgba(255, 255, 255, 0.8);
 
-  position: relative;
-  z-index: 1;
+  /* position: relative;
+  z-index: 1; */
 
   margin-bottom: 57px;
 }
 
 .axure__button {
   display: block;
-  position: relative;
-  z-index: 1;
+  /* position: relative;
+  z-index: 1; */
 
   font-family: 'OpenSans';
   font-style: normal;
@@ -78,4 +78,6 @@
   color: #212121;
   border: 1px solid #d98943;
   background-color: #ffffff;
+
+  transition: all 0.5s ease;
 }
