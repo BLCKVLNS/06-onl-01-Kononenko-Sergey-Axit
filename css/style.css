@@ -5,6 +5,7 @@
 @import url('axure.css');
 @import url('footer.css');
 @import url('socialmedia.css');
+@import url('template.css');
 @font-face {
   font-family: 'Raleway';
   src: url(../fonts/Raleway-VariableFont_wght.ttf);
@@ -63,4 +64,39 @@ a {
 
   color: #86878b;
   text-align: center;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.button {
+  display: block;
+  /* position: relative;
+  z-index: 1; */
+
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  max-width: 135px;
+  margin: 0 0;
+}
+
+.button:hover {
+  color: #212121;
+  border: 1px solid #d98943;
+  background-color: #ffffff;
+
+  transition: all 0.5s ease;
 }

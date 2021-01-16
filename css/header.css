@@ -12,13 +12,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.header__logo {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 35px;
-}
+
 .header__logo_color_white {
   color: #ffffff;
 }
@@ -26,6 +20,9 @@
   color: #d98943;
 }
 
+.header__menu {
+  margin: 0 -30px;
+}
 .header__menu-list {
   display: flex;
   justify-content: space-between;
@@ -49,5 +46,5 @@
 }
 
 .menu-list__item-link:hover {
-  color: #e72424;
+  color: #d98943;
 }
