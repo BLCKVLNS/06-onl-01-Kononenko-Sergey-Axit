@@ -27,10 +27,10 @@
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0 -15px;
+  margin: 0 -7px;
 }
 .temltate__text-column {
-  margin: 0 15px 15px 15px;
+  margin: 0px 7.5px 15px 7.5px;
 }
 .template__logo {
   margin-bottom: 32px;
@@ -102,7 +102,7 @@
 
 .template__form-container {
   max-width: 370px;
-  margin: 0 15px 0 15px;
+  margin: 0px 7.5px 15px 7.5px;
 
   background: #fff;
   border-radius: 5px;
@@ -179,4 +179,9 @@
 
 .template__form-button:hover {
   cursor: pointer;
+
+  background: #333333;
+  color: #d98943;
+
+  transition: all 0.5s ease;
 }

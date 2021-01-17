@@ -75,9 +75,8 @@
 }
 
 .axure__button:hover {
-  color: #212121;
-  border: 1px solid #d98943;
-  background-color: #ffffff;
+  background: #333333;
+  color: #d98943;
 
   transition: all 0.5s ease;
 }
