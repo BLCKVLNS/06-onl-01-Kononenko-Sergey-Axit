@@ -138,22 +138,10 @@
   margin-bottom: 50px;
 }
 
-.form__label {
-  font-family: 'OpenSans';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  text-align: left;
-
-  color: #bdbdbd;
-
-  margin-bottom: 16px;
-}
-
-.form__field {
+.template__form-field {
   border: none;
   border-bottom: 1px solid #bdbdbd;
+  line-height: 20px;
 
   margin-bottom: 19px;
 }

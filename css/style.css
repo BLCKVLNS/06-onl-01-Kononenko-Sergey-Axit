@@ -7,6 +7,7 @@
 @import url('socialmedia.css');
 @import url('template.css');
 @import url('features.css');
+@import url('contactus.css');
 @font-face {
   font-family: 'Raleway';
   src: url(../fonts/Raleway-VariableFont_wght.ttf);
@@ -23,6 +24,10 @@
 }
 a {
   text-decoration: none;
+}
+
+textarea {
+  resize: none;
 }
 
 .container {
@@ -99,4 +104,17 @@ a {
   color: #d98943;
 
   transition: all 0.5s ease;
+}
+
+.form__label {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: left;
+
+  color: #bdbdbd;
+
+  margin-bottom: 12px;
 }

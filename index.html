@@ -91,7 +91,7 @@
                     type="text"
                     name="user-name"
                     id="user-name"
-                    class="form__field"
+                    class="template__form-field"
                     required
                     tabindex="1"
                   />
@@ -102,7 +102,7 @@
                     type="email"
                     name="user-email"
                     id="user-email"
-                    class="form__field"
+                    class="template__form-field"
                     required
                     tabindex="2"
                   />
@@ -113,7 +113,7 @@
                     type="password"
                     name="user-password"
                     id="user-password"
-                    class="form__field"
+                    class="template__form-field"
                     required
                     tabindex="3"
                   />
@@ -433,6 +433,83 @@
             </p>
           </div>
           <a href="#" class="axure__button">Download</a>
+        </div>
+      </section>
+      <section class="contactus">
+        <div class="container">
+          <div class="contactus__heading">
+            <h2 class="title contactus__heading-title">contact us</h2>
+            <p class="subtitle contactus__heading-subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="contactus__form-container">
+            <form
+              action="#"
+              name="contactus__form"
+              method="POST"
+              class="contactus__form"
+            >
+              <div class="contactus__form-info">
+                <div class="contactus__form-userinfo">
+                  <div class="contactus__form-graph">
+                    <label for="contact-username" class="form__label"
+                      ><span>Name</span></label
+                    >
+                    <input
+                      type="text"
+                      name="contact-username"
+                      id="contact-username"
+                      class="contactus__form-field"
+                      required
+                      tabindex="4"
+                    />
+                  </div>
+                  <div class="contactus__form-graph">
+                    <label for="contact-email" class="form__label"
+                      ><span>Email</span></label
+                    >
+                    <input
+                      type="email"
+                      name="contact-email"
+                      id="contact-email"
+                      class="contactus__form-field"
+                      required
+                      tabindex="5"
+                    />
+                  </div>
+                  <div class="contactus__form-graph">
+                    <label for="contactus-password" class="form__label"
+                      ><span>Password</span></label
+                    >
+                    <input
+                      type="password"
+                      name="contactus-password"
+                      id="contactus-password"
+                      class="contactus__form-field"
+                      required
+                      tabindex="6"
+                    />
+                  </div>
+                </div>
+                <div class="contactus__form-message">
+                  <label for="contact-message" class="form__label"
+                    ><span>Message</span></label
+                  >
+                  <textarea
+                    name="contactus-message"
+                    id="contactus-message"
+                    class="contactus__message"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="contactus__form-button-container">
+                <button type="submit" class="contactus__form-button button">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
       <footer class="footer">
