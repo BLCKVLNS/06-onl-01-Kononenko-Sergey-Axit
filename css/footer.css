@@ -68,3 +68,13 @@
 
   color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width: 576px) {
+  .fas-f .fab-f {
+    font-size: 13rem;
+  }
+
+  .social__icon {
+    margin: 10px 17px;
+  }
+}

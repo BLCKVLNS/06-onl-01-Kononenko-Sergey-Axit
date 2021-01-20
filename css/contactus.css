@@ -8,14 +8,8 @@
 
 .contactus__form-container {
   width: 100%;
-  /* background: coral; */
 }
-.contactus__form {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; */
-}
+
 .contactus__form-info {
   display: flex;
   flex-flow: row wrap;
@@ -23,26 +17,21 @@
   align-content: stretch;
 
   margin-bottom: 60px;
-  /* background: crimson; */
 }
 .contactus__form-userinfo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  /* background: darkblue; */
   margin: -10px 10px;
 
   width: 40%;
-}
-.form__label {
 }
 
 .contactus__form-graph {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background: #d98943; */
   width: 100%;
   margin: 10px 0;
 }
@@ -54,8 +43,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* margin-bottom: 19px; */
-  /* background: turquoise; */
+  line-height: 40px;
 }
 
 .contactus__form-message {
@@ -66,7 +54,6 @@
   width: 40%;
 
   margin: 0 10px;
-  /* background: cadetblue; */
 }
 
 .contactus__message {
@@ -81,6 +68,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .contactus__form-button {
   font-family: 'OpenSans';
   font-style: normal;
@@ -94,4 +82,35 @@
   border: 1px solid #ffffff;
   box-sizing: border-box;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contactus__form-userinfo {
+    width: 90%;
+  }
+  .contactus__form-message {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .contactus {
+    padding: 20px 0px;
+  }
+
+  .customers__cards-item {
+    margin-bottom: 40px;
+  }
+
+  .contactus__form-info {
+    flex-direction: column;
+    align-content: center;
+  }
+  .contactus__form-userinfo {
+    margin-bottom: 30px;
+  }
+
+  .contactus__message {
+    height: 5rem;
+  }
 }

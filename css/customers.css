@@ -59,16 +59,6 @@
   top: 100%;
 }
 
-/* .opinion__left {
-  flex-grow: 1;
-}
-.opinion__center {
-  flex-grow: 1;
-}
-.opinion__right {
-  flex-grow: 2;
-} */
-
 .item__customer-info {
   display: flex;
   flex-flow: row wrap;
@@ -100,4 +90,27 @@
   line-height: 19px;
   text-align: right;
   color: #86878b;
+}
+
+@media (max-width: 992px) {
+  .customers {
+    padding: 20px 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .customers {
+    padding: 10px;
+  }
+
+  .customers__cards {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: stretch;
+    align-content: center;
+  }
+  .item__opinion-text {
+    margin-bottom: 5px;
+  }
 }

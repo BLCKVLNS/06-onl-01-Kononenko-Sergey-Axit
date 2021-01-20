@@ -52,3 +52,17 @@
 
   color: #000000;
 }
+
+@media (max-width: 1200px) {
+  .awesome {
+    padding: 20px 0px;
+  }
+
+  .awesome__cards-item {
+    margin-bottom: 50px;
+  }
+
+  .item-description__icon {
+    margin-bottom: 10px;
+  }
+}
