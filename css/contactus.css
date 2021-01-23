@@ -46,6 +46,10 @@
   line-height: 40px;
 }
 
+.contactus__form-field:focus {
+  outline: none;
+}
+
 .contactus__form-message {
   display: flex;
   flex-direction: column;
@@ -61,6 +65,10 @@
   flex-grow: 1;
   border: none;
   border-bottom: 1px solid #bdbdbd;
+}
+
+.contactus__message:focus {
+  outline: none;
 }
 
 .contactus__form-button-container {
@@ -95,7 +103,7 @@
 
 @media (max-width: 992px) {
   .contactus {
-    padding: 20px 0px;
+    padding: 60px 0px;
   }
 
   .customers__cards-item {
@@ -108,8 +116,12 @@
   }
   .contactus__form-userinfo {
     margin-bottom: 30px;
+    width: 85%;
   }
 
+  .contactus__form-message {
+    width: 85%;
+  }
   .contactus__message {
     height: 5rem;
   }
